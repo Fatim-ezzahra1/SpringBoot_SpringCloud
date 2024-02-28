@@ -25,6 +25,7 @@ public class CompanyServiceApplication /*implements CommandLineRunner*/ {
 				companyRepository.save(new Company(null,cn,100+Math.random()*900));
 			});
 			companyRepository.findAll().forEach(System.out::println);
+			System.out.println("test");
 		};
 	}
 
