@@ -26,6 +26,7 @@ public class CompanyServiceApplication /*implements CommandLineRunner*/ {
 			});
 			companyRepository.findAll().forEach(System.out::println);
 			System.out.println("test");
+			System.out.println("test2");
 		};
 	}
 
